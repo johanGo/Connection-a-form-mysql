@@ -1,0 +1,20 @@
+{
+  "name": "conexion-sql-y-formulario",
+  "version": "1.0.0",
+  "description": "creacion de conexion con mysql y java script para guardar los datos de un formulario",
+  "main": "mysql.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Johan Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "googleapis": "^120.0.0",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
